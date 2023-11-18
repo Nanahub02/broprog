@@ -76,7 +76,6 @@ nav>ul>li>a{
 }
 .cuerpo{
     background-color: rgb(255, 251, 196);
-box-sizing: border-box;
 }
 @media (max-width: 1200px){
     .bodies{
