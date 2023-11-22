@@ -1,18 +1,19 @@
+body{
+    background-size: cover;
+}
 nav>ul>li>a{ 
     color: brown;
 }
-.titulo{
+.lista{
+    list-style-type: none;
+}
+.text{
+    margin-left: 300px;
+    padding: top 100px;
+    line-height: 500px;
     font-size: 25px;
-    line-height: 21;
-    font-weight: lighter;
-    margin-left: 400px;
-    color: darkred;
+    color: brown;
 }
-.body1{
-    background-image: url(../img/background1.jpg);
-    background-size: 2000px;
-}
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .somos{
     font-family: 'Lato', sans-serif;
     color: chocolate;
@@ -37,13 +38,6 @@ nav>ul>li>a{
 #productid{
     background-color: antiquewhite;
     padding-top: 70px;
-}
-.lista{
-    display: flex;
-    flex-direction: row;
-}
-.punto{
-    list-style-type: none;
 }
 .grilla3{
     display: grid;
